@@ -1,0 +1,44 @@
+.page-wrapper {
+	position: absolute;
+	width: 667px;
+	height: 375px;
+	border: solid;
+	background-color: #044582;
+	color: white;
+}
+.nav-bar {
+	width: 667px;
+	text-align: center;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+.nav-bar li {
+	display: inline;
+	margin-right: 2em;
+}
+img {
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+video {
+	width: 70%;
+	position: absolute;
+	border: solid;
+	left: 15%;
+	top: 15%;
+}
+.video1 {
+	background: white;
+}
+.video2 {
+	background: black;
+}
+.video3 {
+	background: red;
+}
