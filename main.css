@@ -3,7 +3,7 @@
 	width: 667px;
 	height: 375px;
 	border: solid;
-	background-color: #0081D6;
+	background-color: #15A0D7;
 	color: white;
 	border-radius: 5%;
 }
@@ -25,6 +25,10 @@
 .circle span {
 	font-size: 1em;
 	color: white;
+}
+.clock {
+	position: absolute;
+	margin: 0 45%;
 }
 .search {
 	position: absolute;
@@ -64,6 +68,7 @@
 	left: 0;
 	list-style: none;
 	display: inline;
+	padding-left: 35px;
 
 }
 .nav-bar-pic li {
@@ -91,6 +96,9 @@
 	display: inline;
 	margin-right: 3.7em;
 	width: 50px;
+}
+.select {
+	color: #91D14F;
 }
 img {
 	width: 50%;
