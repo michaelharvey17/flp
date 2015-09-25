@@ -183,6 +183,13 @@ video {
 	border-radius: 5%;
 	font-family: 'Comic Sans MS', sans-serif;
 }
+.menu-text-wrap{
+	width: 667px;
+	text-align: center;
+}
+.menu-text {
+	font-size: 2em;
+}
 .circle-big {
 	border-radius: 50%;
 	position: absolute;
@@ -206,32 +213,32 @@ video {
 }
 .activities {
 	background: #91D14F;
-	top: 22px;
+	top: 26px;
 	left: 8px;
 }
 .profile {
 	background: #FFC030;
-	top: 22px;
+	top: 26px;
 	left: 172px;
 }
 .planner {
 	background: #B594FF;
-	top: 22px;
+	top: 26px;
 	left: 336px;
 }
 .monitor {
 	background: #FE44B2;
-	top: 168px;
+	top: 172px;
 	left: 88px;
 }
 .survey {
 	background: #D366FF;
-	top: 168px;
+	top: 172px;
 	left: 252px;
 }
 .advice {
 	background: #15A0D7;
-	top: 168px;
+	top: 172px;
 	left: 416px;
 }
 .back-button {
