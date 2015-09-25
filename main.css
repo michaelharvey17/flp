@@ -1,3 +1,6 @@
+body {
+	overflow: hidden;
+}
 .page-wrapper {
 	position: absolute;
 	width: 667px;
@@ -6,21 +9,23 @@
 	background-color: #15A0D7;
 	color: white;
 	border-radius: 5%;
-	/*font-family: 'Bangers', Arial;*/
-	/*letter-spacing: 1.5px;*/
 	font-family: 'Comic Sans MS', sans-serif;
 }
 .circle {
-	background: #91D14F;
 	border-radius: 50%;
 	position: absolute;
-	left: 8px;
-	top: 8px;
 	width: 80px;
 	height: 80px;
 	text-align: center;
 	vertical-align: middle;
 	z-index: 99;
+}
+.id {
+	background: #91D14F;
+	top: 8px;
+	left: 8px;
+	cursor: pointer;
+	cursor: hand;
 }
 .circle_text {
 	margin-top: 18px;
@@ -69,9 +74,13 @@
  	height: 20px;
  	width: 20px;
  	margin-top: -5px;
+ 	cursor: pointer;
+	cursor: hand;
  }
  span.favorite {
 	margin-top: 5px;
+	cursor: pointer;
+	cursor: hand;
  }
 .nav-bar-pic {
 	width: 667px;
@@ -87,7 +96,8 @@
 }
 .nav-bar-pic li {
 	display: inline;
-	/*margin-right: 2em;*/
+	cursor: pointer;
+	cursor: hand;
 }
 .nav-bar-pic img {
 	width: 50px;
@@ -110,6 +120,8 @@
 	display: inline;
 	margin-right: 3.7em;
 	width: 50px;
+	cursor: pointer;
+	cursor: hand;
 }
 .select {
 	color: #91D14F;
@@ -148,4 +160,76 @@ video {
 	bottom: 10px;
 	width: 100px;
 	height: 100px;
+}
+.menu-wrapper {
+	position: absolute;
+	left: -620px;
+	z-index: 120;
+	height: 375px;
+	width: 620px;
+	background: #FF91FF;
+	border: solid RGBA(0, 0, 0, 0);
+	color: white;
+	border-radius: 5%;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+.circle-big {
+	border-radius: 50%;
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 99;
+	cursor: pointer;
+	cursor: hand;
+}
+.circle-big-text {
+	margin-top: 35px;
+}
+.planner-text {
+	margin-top: 15px;
+}
+.circle-big span {
+	font-size: 2em;
+	color: white;
+}
+.activities {
+	background: #91D14F;
+	top: 22px;
+	left: 8px;
+}
+.profile {
+	background: #FFC030;
+	top: 22px;
+	left: 172px;
+}
+.planner {
+	background: #B594FF;
+	top: 22px;
+	left: 336px;
+}
+.monitor {
+	background: #FE44B2;
+	top: 168px;
+	left: 88px;
+}
+.survey {
+	background: #D366FF;
+	top: 168px;
+	left: 252px;
+}
+.advice {
+	background: #15A0D7;
+	top: 168px;
+	left: 416px;
+}
+.back-button {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: 0;
+	top: 100px;
+	cursor: pointer;
+	cursor: hand;
 }
