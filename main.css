@@ -31,7 +31,7 @@
 }
 .clock {
 	position: absolute;
-	margin: 0 45%;
+	margin: 0 42%;
 }
 .search {
 	position: absolute;
@@ -114,9 +114,15 @@
 .select {
 	color: #91D14F;
 }
+.video {
+	width: 350px;
+	height: 200px;
+	margin-left: 23%;
+	margin-top: 12%;
+}
 img {
 	width: 50%;
-	height: 30%;
+	height: 40%;
 	margin-left: 25%;
 	margin-top: 8%;
 }
