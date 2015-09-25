@@ -34,7 +34,6 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    /* This adds the nice overlay. */
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.60) 0%,rgba(255,255,255,0.05) 100%);
   }
 .circle_text {
@@ -171,6 +170,20 @@ video {
 	width: 100px;
 	height: 100px;
 }
+.settings {
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+}
+.settings-pic {
+	height: 40px;
+	width: 40px;
+	display: inline;
+	margin: 0;
+	cursor: pointer;
+	cursor: hand;
+}
+
 .menu-wrapper {
 	position: absolute;
 	left: -620px;
@@ -249,4 +262,9 @@ video {
 	top: 100px;
 	cursor: pointer;
 	cursor: hand;
+}
+.settings-menu {
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
 }
