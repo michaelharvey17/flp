@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
   });
 
-  $(".back-button").click(function(){
+  $(".back-button, .activities").click(function(){
     $(".menu-wrapper").animate({
       left: "-=620px"
     }, 1000, function(){
