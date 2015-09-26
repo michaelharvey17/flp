@@ -214,14 +214,18 @@ video {
 	left: 16%;
 	top: 12%;
 }*/
-.video1 {
-	background: white;
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important
 }
-.video2 {
-	background: black;
+.carousel-control img {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 45%;
 }
-.video3 {
-	background: red;
+.left img{
+	position: absolute;
+	left: 5px;
 }
 #logo {
 	position: absolute;
