@@ -198,6 +198,8 @@ body {
 .active-img img {
 	display: inline;
 	margin-right: 5px;
+	cursor: pointer;
+	cursor: hand;
 }
 /*img {
 	width: 50%;
