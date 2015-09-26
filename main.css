@@ -141,7 +141,7 @@ body {
 	margin-bottom: 0;
 	position: absolute;
 	bottom: 0;
-	left: 80px;
+	left: 120px;
 	list-style: none;
 	display: inline-block;
 }
@@ -153,7 +153,7 @@ body {
 }
 .nav-bar span {
 	font-size: .75em;
-	color: #15A0D7;
+	color: white;
 }
 .nav-bar img {
 	width: 30px;
@@ -161,15 +161,17 @@ body {
 	margin: 3px 0;
 }
 .nav-bar button {
-	height: 80px;
-	width: 80px;
+	display: block;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
 	background: white;
+	border-width: 1px;
 }
 .nav-bar button.select{
 	background: #FF91FF;
 }
-button.select span {
+.select span {
 	color: white;
 }
 .video {
@@ -315,8 +317,8 @@ video {
 	position: absolute;
 	height: 50px;
 	width: 50px;
-	right: 0;
-	top: 100px;
+	right: 5px;
+	top: 140px;
 	cursor: pointer;
 	cursor: hand;
 }
