@@ -215,7 +215,13 @@ video {
 	top: 12%;
 }*/
 .carousel-control.left, .carousel-control.right {
-    background-image: none !important
+    background-image: none !important;
+}
+.carousel-control.left {
+	left: 100px;
+}
+.carousel-control.right {
+	right: 100px !important;
 }
 .carousel-control img {
 	position: absolute;
@@ -226,6 +232,10 @@ video {
 .left img{
 	position: absolute;
 	left: 5px;
+}
+.right img {
+	position: absolute;
+	right: 5px;
 }
 #logo {
 	position: absolute;
