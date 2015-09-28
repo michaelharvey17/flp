@@ -73,9 +73,9 @@ body {
     transition: all 0.7s ease 0s;
     }
 
-#search input[type="text"]:focus {
+/*#search input[type="text"]:focus {
     width: 200px;
- }
+ }*/
  .favorite {
  	display: inline-block;
  }
