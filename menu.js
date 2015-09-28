@@ -12,4 +12,17 @@ $(document).ready(function(){
     }, 1000, function(){
     });
   });
+
+  $("#videos").click(function(){
+    window.location = "index.html";
+  });
+  $("#games").click(function(){
+    window.location = "games.html";
+  });
+  $("#ebooks").click(function(){
+    window.location = "ebooks.html";
+  });
+  $("#audio").click(function(){
+    window.location = "audio.html";
+  });
 });

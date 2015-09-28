@@ -11,6 +11,16 @@ body {
 	border-radius: 5%;
 	font-family: 'Comic Sans MS', sans-serif;
 }
+.stripe {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	margin-top: 17%;
+	z-index: 0;
+	border-top: #FF91FF solid 4px;
+	border-bottom: #FF91FF solid 4px;
+	background: #064681;
+}
 .circle {
 	border-radius: 50%;
 	position: absolute;
@@ -180,26 +190,63 @@ body {
 	margin-left: 23%;
 	margin-top: 12%;
 }
-.active-header {
+.video-header {
 	position: absolute;
 	top: 18%;
 	left: 23%;
 	margin: 0;
 }
-.active span {
-
-}
-.active-img {
+.video-img {
 	position: absolute;
 	left: 300px;
 	top: 18%;
 	width: 70px;
 }
-.active-img img {
+.video-img img {
 	display: inline;
 	margin-right: 5px;
 	cursor: pointer;
 	cursor: hand;
+}
+
+.ebook {
+	/*margin-left: 37.5%;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12%;
+	z-index: 10;
+	cursor: pointer;
+	cursor: hand;
+}
+.ebook-header {
+	position: absolute;
+	top: -30px;
+	left: 35%;
+	margin: 0;
+}
+.ebook-img {
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	width: 70px;
+}
+.ebook-img img {
+	display: inline;
+	margin-right: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+.caterpillar-header {
+	position: absolute;
+	top: -30px;
+	left: 30%;
+	margin: 0;
+}
+.caterpillar-img {
+	position: absolute;
+	left: 220px;
+	top: 0px;
+	width: 70px;
 }
 /*img {
 	width: 50%;
