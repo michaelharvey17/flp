@@ -30,6 +30,30 @@ body {
 	vertical-align: middle;
 	z-index: 99;
 }
+#kid-pick {
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	z-index: 30;
+	color: white;
+}
+#kid-pick button{
+	background: #15A0D7;
+	text-decoration: underline;
+	border: none;
+	border-radius: 5% !important;
+}
+#kid-pick li {
+	color: #064681;
+	cursor: pointer;
+	cursor: hand;
+}
+.dropdown-menu {
+	min-width: 60px !important;
+	width: 60px;
+	padding-left: 5px !important;
+}
+
 .id {
 	background: #91D14F;
 	top: 8px;

@@ -25,4 +25,14 @@ $(document).ready(function(){
   $("#audio").click(function(){
     window.location = "audio.html";
   });
+
+  $(".john").click(function(){
+    $(".child").text("John");
+  });
+  $(".chris").click(function(){
+    $(".child").text("Chris");
+  });
+  $(".cindy").click(function(){
+    $(".child").text("Cindy");
+  });
 });
